@@ -1,0 +1,10 @@
+<div class="analytics">
+    <h2>Analytics</h2>
+    <div *ngFor="let data of analyticsData">
+        <h3>{{ data.platform }}</h3>
+        <p>Followers: {{ data.followers }}</p>
+        <p>Engagements: {{ data.engagements }}</p>
+        <p>Likes: {{ data.likes }}</p>
+        <p>Comments: {{ data.comments }}</p>
+    </div>
+</div>
